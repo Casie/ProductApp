@@ -1,0 +1,45 @@
+Wiser coding task:
+
+
+Given a table of 1000 products with the following information: name, sku, category:
+
+1. Display them in a table - Complete
+
+2. Allow displaying only a specific category - Complete
+
+3. Allow editing single product information - Complete
+
+4. HTML Rendering should be done on client-side - Complete
+
+5. Write testsp/specs - Rspec tests complete
+
+6. Validate input and handle errors - Complete
+
+7. Seeds file that populates the data - established a rake task (lib/tasks/import.rake) that seeds database, used sqlite3 to persist data
+
+
+Bonus points:
+
+1. Rails - used rails (4.2.0)
+
+2. Use of client-side framework: Ember CLI (preferred), AngularJS, React
+
+3. Use of Bootstrap SASS/LESS - used Bootstrap (v3.3.5)  
+
+4. Client side validation
+
+5. Pagination - Complete
+
+
+After completing the project, put it in github and send us a link. Alternatively send it in a tar.gz or tar.bz2 format
+
+
+NOTES
+
+* Ruby version 2.2.0
+
+* Database - used sqlite3
+
+* Seed data - run rake csv:import in command line
+
+* How to run the test suite - bundle exec rspec
